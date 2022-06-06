@@ -16,6 +16,16 @@
 		8E5E4ABC284E1FE400600B42 /* KooberMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4ABB284E1FE400600B42 /* KooberMVVMTests.swift */; };
 		8E5E4AC6284E1FE400600B42 /* KooberMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AC5284E1FE400600B42 /* KooberMVVMUITests.swift */; };
 		8E5E4AC8284E1FE400600B42 /* KooberMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AC7284E1FE400600B42 /* KooberMVVMUITestsLaunchTests.swift */; };
+		8EBBE26F284E32D3009439C6 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8EBBE26E284E32D3009439C6 /* PromiseKit */; };
+		8EBBE271284E3381009439C6 /* UserSessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE270284E3381009439C6 /* UserSessionRepository.swift */; };
+		8EBBE273284E3481009439C6 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE272284E3481009439C6 /* UserSession.swift */; };
+		8EBBE275284E3616009439C6 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE274284E3616009439C6 /* UserProfile.swift */; };
+		8EBBE277284E362E009439C6 /* RemoteUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE276284E362E009439C6 /* RemoteUserSession.swift */; };
+		8EBBE279284E39E7009439C6 /* KooberUserSessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE278284E39E7009439C6 /* KooberUserSessionRepository.swift */; };
+		8EBBE27B284E3DCE009439C6 /* NewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE27A284E3DCE009439C6 /* NewAccount.swift */; };
+		8EBBE27E284E3E79009439C6 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE27D284E3E79009439C6 /* Typealias.swift */; };
+		8EBBE281284E3F15009439C6 /* AuthRemoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE280284E3F15009439C6 /* AuthRemoteAPI.swift */; };
+		8EBBE285284E4415009439C6 /* UserSessionDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBE284284E4415009439C6 /* UserSessionDataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,15 @@
 		8E5E4AC1284E1FE400600B42 /* KooberMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KooberMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5E4AC5284E1FE400600B42 /* KooberMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooberMVVMUITests.swift; sourceTree = "<group>"; };
 		8E5E4AC7284E1FE400600B42 /* KooberMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooberMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EBBE270284E3381009439C6 /* UserSessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionRepository.swift; sourceTree = "<group>"; };
+		8EBBE272284E3481009439C6 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		8EBBE274284E3616009439C6 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		8EBBE276284E362E009439C6 /* RemoteUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserSession.swift; sourceTree = "<group>"; };
+		8EBBE278284E39E7009439C6 /* KooberUserSessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooberUserSessionRepository.swift; sourceTree = "<group>"; };
+		8EBBE27A284E3DCE009439C6 /* NewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccount.swift; sourceTree = "<group>"; };
+		8EBBE27D284E3E79009439C6 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		8EBBE280284E3F15009439C6 /* AuthRemoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteAPI.swift; sourceTree = "<group>"; };
+		8EBBE284284E4415009439C6 /* UserSessionDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBBE26F284E32D3009439C6 /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E437973284E2F7B00E41350 /* KooberKit */ = {
+			isa = PBXGroup;
+			children = (
+				8E437974284E2FB500E41350 /* Data Layer */,
+			);
+			path = KooberKit;
+			sourceTree = "<group>";
+		};
+		8E437974284E2FB500E41350 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBE27D284E3E79009439C6 /* Typealias.swift */,
+				8E437976284E2FEF00E41350 /* Model */,
+				8E437977284E2FFD00E41350 /* Repositories */,
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		8E437976284E2FEF00E41350 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBE27C284E3E23009439C6 /* Remote */,
+				8EBBE27A284E3DCE009439C6 /* NewAccount.swift */,
+				8EBBE274284E3616009439C6 /* UserProfile.swift */,
+				8EBBE272284E3481009439C6 /* UserSession.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E437977284E2FFD00E41350 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBE282284E4241009439C6 /* Persistence */,
+				8EBBE27F284E3EFB009439C6 /* Remote */,
+				8EBBE278284E39E7009439C6 /* KooberUserSessionRepository.swift */,
+				8EBBE270284E3381009439C6 /* UserSessionRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 		8E5E4A98284E1FE300600B42 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +166,7 @@
 				8E5E4AAD284E1FE400600B42 /* Assets.xcassets */,
 				8E5E4AAF284E1FE400600B42 /* LaunchScreen.storyboard */,
 				8E5E4AB2284E1FE400600B42 /* Info.plist */,
+				8E437973284E2F7B00E41350 /* KooberKit */,
 			);
 			path = KooberMVVM;
 			sourceTree = "<group>";
@@ -127,6 +188,38 @@
 			path = KooberMVVMUITests;
 			sourceTree = "<group>";
 		};
+		8EBBE27C284E3E23009439C6 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBE276284E362E009439C6 /* RemoteUserSession.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		8EBBE27F284E3EFB009439C6 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBE280284E3F15009439C6 /* AuthRemoteAPI.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		8EBBE282284E4241009439C6 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBE283284E43F2009439C6 /* UserSessionStore */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		8EBBE283284E43F2009439C6 /* UserSessionStore */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBE284284E4415009439C6 /* UserSessionDataStore.swift */,
+			);
+			path = UserSessionStore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +236,9 @@
 			dependencies = (
 			);
 			name = KooberMVVM;
+			packageProductDependencies = (
+				8EBBE26E284E32D3009439C6 /* PromiseKit */,
+			);
 			productName = KooberMVVM;
 			productReference = 8E5E4AA1284E1FE300600B42 /* KooberMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +311,9 @@
 				Base,
 			);
 			mainGroup = 8E5E4A98284E1FE300600B42;
+			packageReferences = (
+				8EBBE26D284E32D3009439C6 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
 			productRefGroup = 8E5E4AA2284E1FE300600B42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +357,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBBE281284E3F15009439C6 /* AuthRemoteAPI.swift in Sources */,
 				8E5E4AA9284E1FE300600B42 /* ViewController.swift in Sources */,
+				8EBBE273284E3481009439C6 /* UserSession.swift in Sources */,
+				8EBBE275284E3616009439C6 /* UserProfile.swift in Sources */,
+				8EBBE279284E39E7009439C6 /* KooberUserSessionRepository.swift in Sources */,
+				8EBBE27E284E3E79009439C6 /* Typealias.swift in Sources */,
+				8EBBE277284E362E009439C6 /* RemoteUserSession.swift in Sources */,
+				8EBBE285284E4415009439C6 /* UserSessionDataStore.swift in Sources */,
+				8EBBE27B284E3DCE009439C6 /* NewAccount.swift in Sources */,
+				8EBBE271284E3381009439C6 /* UserSessionRepository.swift in Sources */,
 				8E5E4AA5284E1FE300600B42 /* AppDelegate.swift in Sources */,
 				8E5E4AA7284E1FE300600B42 /* SceneDelegate.swift in Sources */,
 			);
@@ -596,6 +704,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8EBBE26D284E32D3009439C6 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8EBBE26E284E32D3009439C6 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EBBE26D284E32D3009439C6 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E5E4A99284E1FE300600B42 /* Project object */;
 }
