@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E5E4AA5284E1FE300600B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AA4284E1FE300600B42 /* AppDelegate.swift */; };
+		8E5E4AA7284E1FE300600B42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AA6284E1FE300600B42 /* SceneDelegate.swift */; };
+		8E5E4AA9284E1FE300600B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AA8284E1FE300600B42 /* ViewController.swift */; };
+		8E5E4AAC284E1FE300600B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E4AAA284E1FE300600B42 /* Main.storyboard */; };
+		8E5E4AAE284E1FE400600B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E4AAD284E1FE400600B42 /* Assets.xcassets */; };
+		8E5E4AB1284E1FE400600B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E4AAF284E1FE400600B42 /* LaunchScreen.storyboard */; };
+		8E5E4ABC284E1FE400600B42 /* KooberMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4ABB284E1FE400600B42 /* KooberMVVMTests.swift */; };
+		8E5E4AC6284E1FE400600B42 /* KooberMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AC5284E1FE400600B42 /* KooberMVVMUITests.swift */; };
+		8E5E4AC8284E1FE400600B42 /* KooberMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AC7284E1FE400600B42 /* KooberMVVMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E5E4AB8284E1FE400600B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5E4A99284E1FE300600B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5E4AA0284E1FE300600B42;
+			remoteInfo = KooberMVVM;
+		};
+		8E5E4AC2284E1FE400600B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5E4A99284E1FE300600B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5E4AA0284E1FE300600B42;
+			remoteInfo = KooberMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E5E4AA1284E1FE300600B42 /* KooberMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KooberMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5E4AA4284E1FE300600B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E5E4AA6284E1FE300600B42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E5E4AA8284E1FE300600B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E5E4AAB284E1FE300600B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E5E4AAD284E1FE400600B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E5E4AB0284E1FE400600B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E5E4AB2284E1FE400600B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5E4AB7284E1FE400600B42 /* KooberMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KooberMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5E4ABB284E1FE400600B42 /* KooberMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooberMVVMTests.swift; sourceTree = "<group>"; };
+		8E5E4AC1284E1FE400600B42 /* KooberMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KooberMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5E4AC5284E1FE400600B42 /* KooberMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooberMVVMUITests.swift; sourceTree = "<group>"; };
+		8E5E4AC7284E1FE400600B42 /* KooberMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooberMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5E4A9E284E1FE300600B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E4AB4284E1FE400600B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E4ABE284E1FE400600B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5E4A98284E1FE300600B42 = {
+			isa = PBXGroup;
+			children = (
+				8E5E4AA3284E1FE300600B42 /* KooberMVVM */,
+				8E5E4ABA284E1FE400600B42 /* KooberMVVMTests */,
+				8E5E4AC4284E1FE400600B42 /* KooberMVVMUITests */,
+				8E5E4AA2284E1FE300600B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5E4AA2284E1FE300600B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E4AA1284E1FE300600B42 /* KooberMVVM.app */,
+				8E5E4AB7284E1FE400600B42 /* KooberMVVMTests.xctest */,
+				8E5E4AC1284E1FE400600B42 /* KooberMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5E4AA3284E1FE300600B42 /* KooberMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E4AA4284E1FE300600B42 /* AppDelegate.swift */,
+				8E5E4AA6284E1FE300600B42 /* SceneDelegate.swift */,
+				8E5E4AA8284E1FE300600B42 /* ViewController.swift */,
+				8E5E4AAA284E1FE300600B42 /* Main.storyboard */,
+				8E5E4AAD284E1FE400600B42 /* Assets.xcassets */,
+				8E5E4AAF284E1FE400600B42 /* LaunchScreen.storyboard */,
+				8E5E4AB2284E1FE400600B42 /* Info.plist */,
+			);
+			path = KooberMVVM;
+			sourceTree = "<group>";
+		};
+		8E5E4ABA284E1FE400600B42 /* KooberMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E4ABB284E1FE400600B42 /* KooberMVVMTests.swift */,
+			);
+			path = KooberMVVMTests;
+			sourceTree = "<group>";
+		};
+		8E5E4AC4284E1FE400600B42 /* KooberMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E4AC5284E1FE400600B42 /* KooberMVVMUITests.swift */,
+				8E5E4AC7284E1FE400600B42 /* KooberMVVMUITestsLaunchTests.swift */,
+			);
+			path = KooberMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5E4AA0284E1FE300600B42 /* KooberMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5E4ACB284E1FE400600B42 /* Build configuration list for PBXNativeTarget "KooberMVVM" */;
+			buildPhases = (
+				8E5E4A9D284E1FE300600B42 /* Sources */,
+				8E5E4A9E284E1FE300600B42 /* Frameworks */,
+				8E5E4A9F284E1FE300600B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KooberMVVM;
+			productName = KooberMVVM;
+			productReference = 8E5E4AA1284E1FE300600B42 /* KooberMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E5E4AB6284E1FE400600B42 /* KooberMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5E4ACE284E1FE400600B42 /* Build configuration list for PBXNativeTarget "KooberMVVMTests" */;
+			buildPhases = (
+				8E5E4AB3284E1FE400600B42 /* Sources */,
+				8E5E4AB4284E1FE400600B42 /* Frameworks */,
+				8E5E4AB5284E1FE400600B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E5E4AB9284E1FE400600B42 /* PBXTargetDependency */,
+			);
+			name = KooberMVVMTests;
+			productName = KooberMVVMTests;
+			productReference = 8E5E4AB7284E1FE400600B42 /* KooberMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E5E4AC0284E1FE400600B42 /* KooberMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5E4AD1284E1FE400600B42 /* Build configuration list for PBXNativeTarget "KooberMVVMUITests" */;
+			buildPhases = (
+				8E5E4ABD284E1FE400600B42 /* Sources */,
+				8E5E4ABE284E1FE400600B42 /* Frameworks */,
+				8E5E4ABF284E1FE400600B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E5E4AC3284E1FE400600B42 /* PBXTargetDependency */,
+			);
+			name = KooberMVVMUITests;
+			productName = KooberMVVMUITests;
+			productReference = 8E5E4AC1284E1FE400600B42 /* KooberMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5E4A99284E1FE300600B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8E5E4AA0284E1FE300600B42 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					8E5E4AB6284E1FE400600B42 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 8E5E4AA0284E1FE300600B42;
+					};
+					8E5E4AC0284E1FE400600B42 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 8E5E4AA0284E1FE300600B42;
+					};
+				};
+			};
+			buildConfigurationList = 8E5E4A9C284E1FE300600B42 /* Build configuration list for PBXProject "KooberMVVM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E5E4A98284E1FE300600B42;
+			productRefGroup = 8E5E4AA2284E1FE300600B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5E4AA0284E1FE300600B42 /* KooberMVVM */,
+				8E5E4AB6284E1FE400600B42 /* KooberMVVMTests */,
+				8E5E4AC0284E1FE400600B42 /* KooberMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5E4A9F284E1FE300600B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E4AB1284E1FE400600B42 /* LaunchScreen.storyboard in Resources */,
+				8E5E4AAE284E1FE400600B42 /* Assets.xcassets in Resources */,
+				8E5E4AAC284E1FE300600B42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E4AB5284E1FE400600B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E4ABF284E1FE400600B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5E4A9D284E1FE300600B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E4AA9284E1FE300600B42 /* ViewController.swift in Sources */,
+				8E5E4AA5284E1FE300600B42 /* AppDelegate.swift in Sources */,
+				8E5E4AA7284E1FE300600B42 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E4AB3284E1FE400600B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E4ABC284E1FE400600B42 /* KooberMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E4ABD284E1FE400600B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E4AC8284E1FE400600B42 /* KooberMVVMUITestsLaunchTests.swift in Sources */,
+				8E5E4AC6284E1FE400600B42 /* KooberMVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E5E4AB9284E1FE400600B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5E4AA0284E1FE300600B42 /* KooberMVVM */;
+			targetProxy = 8E5E4AB8284E1FE400600B42 /* PBXContainerItemProxy */;
+		};
+		8E5E4AC3284E1FE400600B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5E4AA0284E1FE300600B42 /* KooberMVVM */;
+			targetProxy = 8E5E4AC2284E1FE400600B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E5E4AAA284E1FE300600B42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5E4AAB284E1FE300600B42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E5E4AAF284E1FE400600B42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5E4AB0284E1FE400600B42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E5E4AC9284E1FE400600B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E5E4ACA284E1FE400600B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E5E4ACC284E1FE400600B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KooberMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KooberMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E5E4ACD284E1FE400600B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KooberMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KooberMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E5E4ACF284E1FE400600B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KooberMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KooberMVVM.app/KooberMVVM";
+			};
+			name = Debug;
+		};
+		8E5E4AD0284E1FE400600B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KooberMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KooberMVVM.app/KooberMVVM";
+			};
+			name = Release;
+		};
+		8E5E4AD2284E1FE400600B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KooberMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KooberMVVM;
+			};
+			name = Debug;
+		};
+		8E5E4AD3284E1FE400600B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KooberMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KooberMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5E4A9C284E1FE300600B42 /* Build configuration list for PBXProject "KooberMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5E4AC9284E1FE400600B42 /* Debug */,
+				8E5E4ACA284E1FE400600B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5E4ACB284E1FE400600B42 /* Build configuration list for PBXNativeTarget "KooberMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5E4ACC284E1FE400600B42 /* Debug */,
+				8E5E4ACD284E1FE400600B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5E4ACE284E1FE400600B42 /* Build configuration list for PBXNativeTarget "KooberMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5E4ACF284E1FE400600B42 /* Debug */,
+				8E5E4AD0284E1FE400600B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5E4AD1284E1FE400600B42 /* Build configuration list for PBXNativeTarget "KooberMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5E4AD2284E1FE400600B42 /* Debug */,
+				8E5E4AD3284E1FE400600B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5E4A99284E1FE300600B42 /* Project object */;
+}
