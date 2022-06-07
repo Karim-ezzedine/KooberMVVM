@@ -8,6 +8,14 @@
 import Foundation
 
 public class UserSession: Codable {
-  public let profile: UserProfile
-  public let remoteSession: RemoteUserSession
+    
+    // MARK: - Properties
+    public let profile: UserProfile
+    public let remoteSession: RemoteUserSession
+    
+    // MARK: - Methods
+    public init(profile: UserProfile, remoteSession: RemoteUserSession) {
+        self.profile = profile
+        self.remoteSession = remoteSession
+    }
 }

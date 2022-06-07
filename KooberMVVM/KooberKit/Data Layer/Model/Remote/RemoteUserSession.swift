@@ -8,5 +8,5 @@
 import Foundation
 
 public struct RemoteUserSession: Codable {
-  let token: AuthToken
+    let token: AuthToken
 }

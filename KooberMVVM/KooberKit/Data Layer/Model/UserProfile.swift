@@ -8,8 +8,8 @@
 import Foundation
 
 public struct UserProfile: Codable {
-  public let name: String
-  public let email: String
-  public let mobileNumber: String
-  public let avatar: URL
+    public let name: String
+    public let email: String
+    public let mobileNumber: String
+    public let avatar: URL
 }
