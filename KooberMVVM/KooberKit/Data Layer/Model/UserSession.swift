@@ -19,3 +19,9 @@ public class UserSession: Codable {
         self.remoteSession = remoteSession
     }
 }
+
+extension UserSession: Equatable {
+    public static func ==(lhs: UserSession, rhs: UserSession) -> Bool {
+        return lhs.profile == rhs.profile && lhs.remoteSession == rhs.remoteSession
+    }
+}

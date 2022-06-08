@@ -7,6 +7,6 @@
 
 import Foundation
 
-public struct RemoteUserSession: Codable {
+public struct RemoteUserSession: Equatable, Codable {
     let token: AuthToken
 }

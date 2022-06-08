@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E51F39D2850C8F000091E7D /* SignInViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F39C2850C8F000091E7D /* SignInViewModelFactory.swift */; };
+		8E51F39F2850CCE400091E7D /* KooberOnboardingDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F39E2850CCE400091E7D /* KooberOnboardingDependencyContainer.swift */; };
+		8E51F3A12850CE4800091E7D /* NotSignedInResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F3A02850CE4800091E7D /* NotSignedInResponder.swift */; };
+		8E51F3A32850CFEA00091E7D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F3A22850CFEA00091E7D /* MainViewModel.swift */; };
+		8E51F3A72850D0D100091E7D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F3A62850D0D100091E7D /* MainView.swift */; };
+		8E51F3A92851047700091E7D /* SignInRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F3A82851047700091E7D /* SignInRootView.swift */; };
+		8E51F3AB2851053400091E7D /* NiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F3AA2851053400091E7D /* NiblessView.swift */; };
+		8E51F3AE2851074700091E7D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F3AD2851074700091E7D /* Color.swift */; };
+		8E51F3B02851324000091E7D /* UIViewController+ErrorPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F3AF2851324000091E7D /* UIViewController+ErrorPresentation.swift */; };
 		8E5E4AA5284E1FE300600B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AA4284E1FE300600B42 /* AppDelegate.swift */; };
 		8E5E4AA7284E1FE300600B42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AA6284E1FE300600B42 /* SceneDelegate.swift */; };
 		8E5E4AA9284E1FE300600B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4AA8284E1FE300600B42 /* ViewController.swift */; };
@@ -56,6 +65,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E51F39C2850C8F000091E7D /* SignInViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModelFactory.swift; sourceTree = "<group>"; };
+		8E51F39E2850CCE400091E7D /* KooberOnboardingDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooberOnboardingDependencyContainer.swift; sourceTree = "<group>"; };
+		8E51F3A02850CE4800091E7D /* NotSignedInResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSignedInResponder.swift; sourceTree = "<group>"; };
+		8E51F3A22850CFEA00091E7D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		8E51F3A62850D0D100091E7D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8E51F3A82851047700091E7D /* SignInRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRootView.swift; sourceTree = "<group>"; };
+		8E51F3AA2851053400091E7D /* NiblessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessView.swift; sourceTree = "<group>"; };
+		8E51F3AD2851074700091E7D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8E51F3AF2851324000091E7D /* UIViewController+ErrorPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ErrorPresentation.swift"; sourceTree = "<group>"; };
 		8E5E4AA1284E1FE300600B42 /* KooberMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KooberMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5E4AA4284E1FE300600B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E5E4AA6284E1FE300600B42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,12 +178,20 @@
 			path = Repositories;
 			sourceTree = "<group>";
 		};
+		8E51F3AC2851072B00091E7D /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				8E51F3AD2851074700091E7D /* Color.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		8E5E4A98284E1FE300600B42 = {
 			isa = PBXGroup;
 			children = (
 				8E5E4AA3284E1FE300600B42 /* KooberMVVM */,
-				8E5E4ABA284E1FE400600B42 /* KooberMVVMTests */,
 				8E5E4AC4284E1FE400600B42 /* KooberMVVMUITests */,
+				8E5E4ABA284E1FE400600B42 /* KooberMVVMTests */,
 				8E5E4AA2284E1FE300600B42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -259,6 +285,8 @@
 			isa = PBXGroup;
 			children = (
 				FEA5C146284F86AD0073C4C8 /* SignIn */,
+				8E51F39C2850C8F000091E7D /* SignInViewModelFactory.swift */,
+				8E51F39E2850CCE400091E7D /* KooberOnboardingDependencyContainer.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -266,6 +294,7 @@
 		FEA5C146284F86AD0073C4C8 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				8E51F3A82851047700091E7D /* SignInRootView.swift */,
 				FEA5C14D284F8D350073C4C8 /* SignInViewController.swift */,
 			);
 			path = SignIn;
@@ -283,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				FEA5C149284F88070073C4C8 /* UIKit */,
+				8E51F3AC2851072B00091E7D /* Style */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -291,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				FEA5C14A284F89C70073C4C8 /* NiblessComponents */,
+				8E51F3AF2851324000091E7D /* UIViewController+ErrorPresentation.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -298,6 +329,7 @@
 		FEA5C14A284F89C70073C4C8 /* NiblessComponents */ = {
 			isa = PBXGroup;
 			children = (
+				8E51F3AA2851053400091E7D /* NiblessView.swift */,
 				FEA5C14B284F89E00073C4C8 /* NiblessViewController.swift */,
 			);
 			path = NiblessComponents;
@@ -332,7 +364,10 @@
 			isa = PBXGroup;
 			children = (
 				FEEA58C2284F2AEB00175473 /* Onboard */,
+				8E51F3A62850D0D100091E7D /* MainView.swift */,
+				8E51F3A22850CFEA00091E7D /* MainViewModel.swift */,
 				FEEA58C6284F2C5000175473 /* SignedInResponder.swift */,
+				8E51F3A02850CE4800091E7D /* NotSignedInResponder.swift */,
 			);
 			path = UILayer;
 			sourceTree = "<group>";
@@ -496,22 +531,31 @@
 				FEEA58BA284F1CC900175473 /* KooberCloudAuthRemoteAPI.swift in Sources */,
 				FEEA58C0284F227000175473 /* FakeURL.swift in Sources */,
 				8E5E4AA9284E1FE300600B42 /* ViewController.swift in Sources */,
+				8E51F3A32850CFEA00091E7D /* MainViewModel.swift in Sources */,
+				8E51F39F2850CCE400091E7D /* KooberOnboardingDependencyContainer.swift in Sources */,
 				8EBBE273284E3481009439C6 /* UserSession.swift in Sources */,
 				8EBBE275284E3616009439C6 /* UserProfile.swift in Sources */,
 				FEEA58BC284F218C00175473 /* FakeAuthRemoteAPI.swift in Sources */,
 				8EBBE279284E39E7009439C6 /* KooberUserSessionRepository.swift in Sources */,
 				8EBBE27E284E3E79009439C6 /* Typealias.swift in Sources */,
+				8E51F3A92851047700091E7D /* SignInRootView.swift in Sources */,
 				FEEA58C5284F2B5400175473 /* SignInViewModel.swift in Sources */,
 				FEEA58BE284F21E800175473 /* Enum.swift in Sources */,
 				8EBBE277284E362E009439C6 /* RemoteUserSession.swift in Sources */,
 				8EBBE285284E4415009439C6 /* UserSessionDataStore.swift in Sources */,
+				8E51F3AE2851074700091E7D /* Color.swift in Sources */,
 				FEA5C14E284F8D350073C4C8 /* SignInViewController.swift in Sources */,
 				8EBBE27B284E3DCE009439C6 /* NewAccount.swift in Sources */,
+				8E51F3AB2851053400091E7D /* NiblessView.swift in Sources */,
+				8E51F3A12850CE4800091E7D /* NotSignedInResponder.swift in Sources */,
+				8E51F3B02851324000091E7D /* UIViewController+ErrorPresentation.swift in Sources */,
+				8E51F3A72850D0D100091E7D /* MainView.swift in Sources */,
 				8EBBE271284E3381009439C6 /* UserSessionRepository.swift in Sources */,
 				8E5E4AA5284E1FE300600B42 /* AppDelegate.swift in Sources */,
 				FEA5C14C284F89E00073C4C8 /* NiblessViewController.swift in Sources */,
 				FEEA590E284F58EC00175473 /* ErrorMessage.swift in Sources */,
 				8E5E4AA7284E1FE300600B42 /* SceneDelegate.swift in Sources */,
+				8E51F39D2850C8F000091E7D /* SignInViewModelFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

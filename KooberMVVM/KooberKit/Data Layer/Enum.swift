@@ -17,3 +17,8 @@ enum RemoteAPIError: Error {
     case createURL
     case httpError
 }
+
+public enum ErrorPresentation {
+    case presenting
+    case dismissed
+}
